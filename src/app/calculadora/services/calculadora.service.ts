@@ -35,7 +35,7 @@ export class CalculadoraService {
 
     switch (operacao) {
       case CalculadoraService.SOMA:
-        resultado = num1 + num2;
+        resultado = num1 + num2; 
         break;
       case CalculadoraService.SUBTRACAO:
         resultado = num1 - num2;  
